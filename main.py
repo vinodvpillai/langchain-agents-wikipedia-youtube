@@ -6,9 +6,6 @@ from langchain.agents import create_react_agent, AgentExecutor
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 
-
-
-
 import os
 from os.path import join, dirname
 from dotenv import load_dotenv
